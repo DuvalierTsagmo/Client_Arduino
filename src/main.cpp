@@ -68,6 +68,6 @@ void loop()
         Serial.println("Connection failed");
         Serial.println("Connection failed. Retrying in 5 seconds...");
     }
-    // Modifier le délai pour attendre 3 secondes avant de réessayer
+    // Modifier le délai pour attendre 3 secondes avant de réessayer encore
     delay(3000); 
 }
